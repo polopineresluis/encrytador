@@ -1,0 +1,172 @@
+body {
+  background-color: #eff1fa;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+}
+
+.caja {
+  width: auto;
+  margin: 30px 40px;
+  display: inline-block;
+}
+
+.contenedor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+}
+
+.izquierdo {
+  width: 50%;
+  height: auto;
+  margin-left: 90px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.izquierdo #textArea {
+  width: auto;
+  height: 100px;
+  left: 240px;
+  top: 168px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  margin-top: 20px;
+  /* identical to box height, or 48px */
+
+  /* Dark blue/dark-blue-300 */
+
+  color: #0a3871;
+
+  border-radius: 24px;
+}
+
+#avisos {
+  width: auto;
+  height: auto;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 200px;
+}
+
+#avisos p {
+  display: inline;
+}
+
+.btnOpciones {
+  width: auto;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+.botton {
+  display: inline-block;
+  width: 200px;
+  height: 67px;
+  border-radius: 24px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  border-color: #0a3871;
+  transition: all 0.1s ease-out;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.botton:hover {
+  background: #0a3871;
+  border-radius: 24px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+
+.derecho {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  margin-left: 10px;
+  margin: 0 auto;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.derecho img {
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+.ningunMensaje {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.digiteTexto {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .caja {
+    width: auto;
+    margin: 20px;
+    display: inline-block;
+  }
+
+
+  .contenedor{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+
+  .izquierdo {
+    width: auto;
+    height: 100%;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .izquierdo #textArea {
+    width: 90%;
+    height: 48px;
+    top: 80px;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 32px;
+    line-height: 150%;
+  }
+
+  #avisos {
+    width: auto;
+    height: auto;
+    margin-right: 40px;
+    text-align: left;
+  }
+
+  .logosinFrases{
+    display: none !important;
+  }
+
+  .derecho{
+    width: auto;
+    height: 200px;
+    margin-top: 20px;
+  }
+}
